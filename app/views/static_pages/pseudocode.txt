@@ -1,0 +1,11 @@
+# Check for gamestate cookie/session
+# Parse cookie from JSON
+# Create new ConnectFour object, load gamestate into class
+#   If gamestate[:new] is true, new game
+#   Else load board into game
+# Render board
+# Get move from form
+# Update board
+# Export board
+# Parse to JSON
+# Save cookie

@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   
   get '/gamecenter/' => 'static_pages#home'
 
+  get '/connectfour/play' => 'connect_four#play'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
